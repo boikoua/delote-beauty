@@ -1,0 +1,23 @@
+@import './../../styles/variables.scss';
+
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-block: 28px;
+  border-bottom: 1px solid $line-color;
+}
+
+.link {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 130%;
+}
