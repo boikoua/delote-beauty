@@ -1,6 +1,6 @@
-import { serviceCategory } from '@/types/serviceCategory';
+import { IService } from '@/types/IService';
 
-export const servicesCategories: serviceCategory[] = [
+export const servicesCategories: IService[] = [
   {
     id: 1,
     img: '/images/services/1.jpg',

@@ -1,8 +1,8 @@
-import { serviceCategory } from '@/types/serviceCategory';
+import { IService } from '@/types/IService';
 import styles from './ServiceCard.module.scss';
 
 type Props = {
-  item: serviceCategory;
+  item: IService;
 };
 
 const ServiceCard: React.FC<Props> = ({ item }) => {
