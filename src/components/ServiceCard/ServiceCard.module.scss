@@ -1,0 +1,43 @@
+@import './../../styles/variables.scss';
+
+.card {
+  position: relative;
+
+  &:hover .img {
+    box-shadow: 0 0 20px $accent-color;
+  }
+
+  &:hover .border {
+    top: 0;
+    right: 0;
+  }
+}
+
+.border {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  z-index: 1;
+  width: 100%;
+  min-height: 300px;
+  border: 1px solid $accent-color;
+  transition: all 0.5s;
+}
+
+.img {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 30px;
+  width: 100%;
+  min-height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.8s;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 120%;
+}
