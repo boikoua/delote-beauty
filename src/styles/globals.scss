@@ -1,3 +1,4 @@
+@import './../style.css';
 @import './variables.scss';
 
 * {
@@ -27,4 +28,14 @@ ul {
 a {
   color: $main-text-color;
   text-decoration: none;
+}
+
+.icon-instagram {
+  font-size: 28px;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    color: $accent-color;
+  }
 }

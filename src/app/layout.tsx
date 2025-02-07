@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Cormorant_Garamond } from 'next/font/google';
 import './../styles/globals.scss';
 import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 
 const cormorantGaramond = Cormorant_Garamond({
   weight: ['400', '600', '700'],
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className={cormorantGaramond.className}>
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   );

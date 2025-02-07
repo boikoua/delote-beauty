@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from './Navigation.module.scss';
-import Image from 'next/image';
+import Logo from '../Logo';
 
 const Navigation = () => {
   return (
@@ -8,7 +8,7 @@ const Navigation = () => {
       <div className="container">
         <ul className={styles.items}>
           <li className={styles.item}>
-            <Link className={styles.link} href="/">
+            <Link className={`${styles.link} ${styles.active}`} href="/">
               Головна
             </Link>
           </li>
@@ -23,9 +23,7 @@ const Navigation = () => {
             </Link>
           </li>
           <li className={styles.item}>
-            <Link className={styles.link} href="/">
-              <Image src="/images/logo.png" alt="Logo" width={40} height={40} />
-            </Link>
+            <Logo />
           </li>
           <li className={styles.item}>
             <Link className={styles.link} href="/promo">
