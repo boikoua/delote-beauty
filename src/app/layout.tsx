@@ -30,7 +30,7 @@ export default function RootLayout({
       </head>
       <body className={cormorantGaramond.className}>
         <Navigation />
-        {children}
+        <div className="wrapper">{children}</div>
         <Footer />
       </body>
     </html>
