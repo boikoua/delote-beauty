@@ -48,3 +48,8 @@ a {
     color: $accent-color;
   }
 }
+
+.icon-arrow {
+  display: inline-block;
+  transform: rotate(90deg);
+}

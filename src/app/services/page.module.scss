@@ -11,3 +11,9 @@
   line-height: 120%;
   text-align: center;
 }
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

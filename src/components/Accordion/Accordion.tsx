@@ -19,6 +19,12 @@ const Accordion: React.FC<Props> = ({ item }) => {
   return (
     <article className={styles.accordion}>
       <button className={styles.button} onClick={() => toggleAccordion(id)}>
+        <span
+          className="icon-arrow"
+          style={{
+            transform: openIndex === id ? 'rotate(-90deg)' : 'rotate(90deg)',
+          }}
+        ></span>{' '}
         {title}
       </button>
 
@@ -27,7 +33,7 @@ const Accordion: React.FC<Props> = ({ item }) => {
           <ul className={styles.items}>
             {services.map((service, index) => (
               <li key={index} className={styles.item}>
-                {service.name} - {service.price} grn
+                {service.name} - {service.price} ₴
               </li>
             ))}
           </ul>
