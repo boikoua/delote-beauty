@@ -13,7 +13,7 @@ const Header = () => {
             Салон краси «Delote-Beauty» у Харкові
           </h1>
 
-          <p className={styles.scroll}>
+          <p className={styles.scroll} data-aos="fade-up">
             <Image
               src="/images/icons/mouse.svg"
               alt="Scroll icon"

@@ -14,6 +14,7 @@ const Contacts = () => {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
+          data-aos="fade-left"
         ></iframe>
       </div>
     </main>

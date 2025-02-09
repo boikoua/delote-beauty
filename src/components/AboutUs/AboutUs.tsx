@@ -2,7 +2,7 @@ import styles from './AboutUs.module.scss';
 
 const AboutUs = () => {
   return (
-    <section className={styles.about}>
+    <section className={styles.about} data-aos="fade-down">
       <h2 className={styles.title}>Про наш салон</h2>
 
       <p className={styles.text}>

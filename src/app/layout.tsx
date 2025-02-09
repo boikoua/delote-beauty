@@ -3,6 +3,7 @@ import { Cormorant_Garamond } from 'next/font/google';
 import './../styles/globals.scss';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import AOSProvider from '@/utils/AOSProvider';
 
 const cormorantGaramond = Cormorant_Garamond({
   weight: ['400', '600', '700'],
@@ -29,6 +30,7 @@ export default function RootLayout({
         />
       </head>
       <body className={cormorantGaramond.className}>
+        <AOSProvider />
         <Navigation />
         <div className="wrapper">{children}</div>
         <Footer />

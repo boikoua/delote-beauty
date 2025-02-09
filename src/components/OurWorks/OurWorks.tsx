@@ -21,6 +21,7 @@ const OurWorks = () => {
         className={styles.photo}
         key={item.id}
         style={{ backgroundImage: `url('${item.photo}')` }}
+        data-aos="zoom-out"
       ></li>
     ));
 

@@ -10,7 +10,7 @@ const FeedbackCard: React.FC<Props> = ({ item }) => {
   const { photo, name, content } = item;
 
   return (
-    <article className={styles.card}>
+    <article className={styles.card} data-aos="zoom-in">
       <div className={styles.info}>
         <Image
           className={styles.img}

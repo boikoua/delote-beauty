@@ -17,7 +17,7 @@ const Accordion: React.FC<Props> = ({ item }) => {
   };
 
   return (
-    <article className={styles.accordion}>
+    <article className={styles.accordion} data-aos="fade-right">
       <button className={styles.button} onClick={() => toggleAccordion(id)}>
         <span
           className="icon-arrow"

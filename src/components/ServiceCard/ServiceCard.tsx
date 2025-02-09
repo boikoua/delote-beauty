@@ -9,7 +9,7 @@ const ServiceCard: React.FC<Props> = ({ item }) => {
   const { img, title } = item;
 
   return (
-    <article className={styles.card}>
+    <article className={styles.card} data-aos="zoom-in">
       <div className={styles.border}></div>
 
       <div

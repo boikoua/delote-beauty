@@ -6,7 +6,7 @@ const Promo = () => {
       <div className="container">
         <h2 className={styles.title}>Наші акції та бонуси</h2>
 
-        <article className={styles.item}>
+        <article className={styles.item} data-aos="zoom-in">
           <h3 className={styles.subtitle}>
             Як працює бонусна програма в салонах Delote Beauty?
           </h3>
@@ -20,7 +20,7 @@ const Promo = () => {
           <p className={styles.text}>1 бонус = 1 гривня</p>
         </article>
 
-        <article className={styles.item}>
+        <article className={styles.item} data-aos="zoom-in">
           <h3 className={styles.subtitle}>Типы бонусных карт:</h3>
 
           <p className={styles.text}>3% від 500 грн. до 14999 грн.</p>
@@ -32,7 +32,7 @@ const Promo = () => {
           <p className={styles.text}>10% від 80 000 грн.</p>
         </article>
 
-        <article className={styles.item}>
+        <article className={styles.item} data-aos="zoom-in">
           <h3 className={styles.subtitle}>Для іменинників.</h3>
 
           <p className={styles.text}>
@@ -41,7 +41,7 @@ const Promo = () => {
           </p>
         </article>
 
-        <article className={styles.item}>
+        <article className={styles.item} data-aos="zoom-in">
           <h3 className={styles.subtitle}>Термін бонусів:</h3>
 
           <p className={styles.text}>

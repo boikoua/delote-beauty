@@ -13,7 +13,7 @@ const Brands = () => {
   ));
 
   return (
-    <section className={styles.brands}>
+    <section className={styles.brands} data-aos="fade-up-right">
       <ul className={styles.items}>{showBrands}</ul>
     </section>
   );
