@@ -1,0 +1,30 @@
+@import './../../styles/variables.scss';
+
+.main {
+  margin-block: 150px;
+}
+
+.title {
+  margin-bottom: 80px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 130%;
+}
