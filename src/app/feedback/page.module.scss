@@ -1,0 +1,17 @@
+.main {
+  margin-block: 150px;
+}
+
+.title {
+  margin-bottom: 80px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
