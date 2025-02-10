@@ -46,6 +46,7 @@
     width: 0;
     height: 1px;
     background-color: $accent-color;
+    transition: all 0.3s;
   }
 
   &:hover::after {

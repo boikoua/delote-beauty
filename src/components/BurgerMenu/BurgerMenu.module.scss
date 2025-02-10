@@ -1,0 +1,66 @@
+@import './../../styles/variables.scss';
+
+.burger {
+  position: absolute;
+  top: 0;
+  left: -3000px;
+  width: 0;
+  height: 100vh;
+  z-index: 2;
+  padding-block: 30px;
+  background-color: $main-bg-color;
+  transition: all 0.5s;
+}
+
+.open {
+  left: 0;
+  width: 100%;
+}
+
+.container {
+  margin-inline: auto;
+  padding-inline: 30px;
+  max-width: 700px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item {
+  text-align: center;
+}
+
+.link {
+  font-size: 28px;
+  transition: all 0.3s;
+
+  &:hover {
+    color: $accent-color;
+  }
+}
+
+.active {
+  color: $accent-color;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: $accent-color;
+  }
+}
