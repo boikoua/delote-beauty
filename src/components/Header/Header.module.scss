@@ -37,3 +37,19 @@
   font-weight: 700;
   line-height: 140%;
 }
+
+@media (max-width: 1024px) {
+  .title {
+    padding-inline: 20px;
+    width: 100%;
+    max-width: 700px;
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 425px) {
+  .title {
+    width: 100%;
+    font-size: 52px;
+  }
+}

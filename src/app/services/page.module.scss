@@ -17,3 +17,10 @@
   flex-direction: column;
   gap: 30px;
 }
+
+@media (max-width: 768px) {
+  .title {
+    margin-bottom: 60px;
+    font-size: 40px;
+  }
+}

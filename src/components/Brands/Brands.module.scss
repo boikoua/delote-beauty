@@ -14,3 +14,17 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 768px) {
+  .brands {
+    margin-bottom: 120px;
+  }
+
+  .items {
+    flex-wrap: wrap;
+  }
+
+  .item {
+    width: 189px;
+  }
+}

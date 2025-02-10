@@ -16,3 +16,28 @@
   line-height: 130%;
   text-align: center;
 }
+
+@media (max-width: 1024px) {
+  .about {
+    margin-block: 60px;
+  }
+
+  .title {
+    margin-bottom: 40px;
+    font-size: 52px;
+  }
+
+  .text {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .title {
+    font-size: 42px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+}

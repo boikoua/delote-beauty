@@ -12,69 +12,79 @@ const Navigation = () => {
   return (
     <nav className={styles.nav}>
       <div className="container">
-        <ul className={styles.items}>
-          <li className={styles.item}>
-            <Link
-              className={cn(styles.link, { [styles.active]: pathname === '/' })}
-              href="/"
-            >
-              Головна
-            </Link>
-          </li>
-          <li className={styles.item}>
-            <Link
-              className={cn(styles.link, {
-                [styles.active]: pathname === '/masters',
-              })}
-              href="/masters"
-            >
-              Майстри
-            </Link>
-          </li>
-          <li className={styles.item}>
-            <Link
-              className={cn(styles.link, {
-                [styles.active]: pathname === '/services',
-              })}
-              href="/services"
-            >
-              Послуги
-            </Link>
-          </li>
-          <li className={styles.item}>
-            <Logo />
-          </li>
-          <li className={styles.item}>
-            <Link
-              className={cn(styles.link, {
-                [styles.active]: pathname === '/promo',
-              })}
-              href="/promo"
-            >
-              Акції
-            </Link>
-          </li>
-          <li className={styles.item}>
-            <Link
-              className={cn(styles.link, {
-                [styles.active]: pathname === '/feedback',
-              })}
-              href="/feedback"
-            >
-              Відгуки
-            </Link>
-          </li>
-          <li className={styles.item}>
-            <Link
-              className={cn(styles.link, {
-                [styles.active]: pathname === '/contacts',
-              })}
-              href="/contacts"
-            >
-              Контакти
-            </Link>
-          </li>
-        </ul>
+        <div className={styles.desktop}>
+          <ul className={styles.items}>
+            <li className={styles.item}>
+              <Link
+                className={cn(styles.link, {
+                  [styles.active]: pathname === '/',
+                })}
+                href="/"
+              >
+                Головна
+              </Link>
+            </li>
+            <li className={styles.item}>
+              <Link
+                className={cn(styles.link, {
+                  [styles.active]: pathname === '/masters',
+                })}
+                href="/masters"
+              >
+                Майстри
+              </Link>
+            </li>
+            <li className={styles.item}>
+              <Link
+                className={cn(styles.link, {
+                  [styles.active]: pathname === '/services',
+                })}
+                href="/services"
+              >
+                Послуги
+              </Link>
+            </li>
+            <li className={styles.item}>
+              <Logo />
+            </li>
+            <li className={styles.item}>
+              <Link
+                className={cn(styles.link, {
+                  [styles.active]: pathname === '/promo',
+                })}
+                href="/promo"
+              >
+                Акції
+              </Link>
+            </li>
+            <li className={styles.item}>
+              <Link
+                className={cn(styles.link, {
+                  [styles.active]: pathname === '/feedback',
+                })}
+                href="/feedback"
+              >
+                Відгуки
+              </Link>
+            </li>
+            <li className={styles.item}>
+              <Link
+                className={cn(styles.link, {
+                  [styles.active]: pathname === '/contacts',
+                })}
+                href="/contacts"
+              >
+                Контакти
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div className={styles.mobile}>
+          <Logo />
+
+          <span className="icon-burger"></span>
+        </div>
       </div>
     </nav>
   );

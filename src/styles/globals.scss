@@ -28,6 +28,7 @@ body {
 .container {
   margin-inline: auto;
   max-width: 1200px;
+  padding-inline: 30px;
 }
 
 ul {
@@ -37,6 +38,16 @@ ul {
 a {
   color: $main-text-color;
   text-decoration: none;
+}
+
+.icon-burger {
+  font-size: 32px;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    color: $accent-color;
+  }
 }
 
 .icon-instagram {

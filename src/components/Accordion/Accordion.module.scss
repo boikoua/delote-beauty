@@ -71,3 +71,13 @@
 .item {
   font-size: 24px;
 }
+
+@media (max-width: 425px) {
+  .button {
+    font-size: 24px;
+  }
+
+  .item {
+    font-size: 20px;
+  }
+}

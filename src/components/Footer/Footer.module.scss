@@ -34,3 +34,52 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px 20px;
+  }
+
+  .logo,
+  .contacts,
+  .schedule,
+  .socials {
+    width: calc(50% - 10px);
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    order: 4;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 425px) {
+  .contacts,
+  .schedule {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    order: 4;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
