@@ -35,7 +35,7 @@ The project is optimized for fast loading and provides a smooth user experience.
 ## View project
 
 > Link to the project
-> [DEMO LINK](https://boikoua.github.io/delote-beauty/).
+> [DEMO LINK](https://delote-beauty-kappa.vercel.app/).
 
 ## Preview
 
